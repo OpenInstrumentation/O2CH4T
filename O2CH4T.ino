@@ -5,7 +5,7 @@ O2CH4T Logger, a logger for Oxygen, Methane, and temperature in compost piles
 This program logs O2, CH4, and temperature data to a µSD card, and displays them on a 16x2 LCD display.
 It uses an Hanwei MQ-4 Methane sensor ( https://www.sparkfun.com/products/9404 ), a Bosch 15717 Oxygen sensor ( http://www.amazon.com/Bosch-15717-Oxygen-Sensor-Fitment/dp/B000BZI4JS/ref=sr_1_2?ie=UTF8&qid=1386983217&sr=8-2&keywords=oxygen+sensor ), and a DS1307 RTC ( https://www.sparkfun.com/products/99 ).
 */
-
+// Variables:
 int O2Sense=A0;  // Oxygen sensor pin
 int CH4Sense=A1;  // Methane sensor pin
 int TempSense=A2;  // Temperature sensor pin
